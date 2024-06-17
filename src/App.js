@@ -6,7 +6,7 @@ import { Container, Row, Col, Form, Button, Table } from 'react-bootstrap';
 import idl from './genopets_idl';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const connection = new Connection('https://rpc.ankr.com/solana/560c7b8ff4025ac297303e71df7d94650af371bc0d77ef60018ee406725d74cc');
+const connection = new Connection('https://rpc.ankr.com/multichain/560c7b8ff4025ac297303e71df7d94650af371bc0d77ef60018ee406725d74cc');
 const metaplex = Metaplex.make(connection);
 const programId = new PublicKey('HAbiTatJVqoCJd9asyr6RxMEdwtfrQugwp7VAFyKWb1g');
 
